@@ -36,4 +36,5 @@ story = [
             {"text": "Sätt dig ner och vänta på att han talar först", "next_id": 10},
         ],
     },
+
 ]
