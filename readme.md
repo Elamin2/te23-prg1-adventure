@@ -61,3 +61,5 @@ Faktiskt kunna använda föremålen för att lösa problem.
 Skapa en poängräknare som ökar eller minskar beroende på spelarens val.
 Lägg till en tidsbegränsning för att göra val, där spelaren måste välja inom en viss tid eller förlora.
 
+
+

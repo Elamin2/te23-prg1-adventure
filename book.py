@@ -35,6 +35,31 @@ story = [
             {"text": "Fråga honom direkt om livets mening", "next_id": 9},
             {"text": "Sätt dig ner och vänta på att han talar först", "next_id": 10},
         ],
+        
+        
     },
 
 ]
+{
+        "id": 4,
+        "title": "En Vägskäl i Mörkret",
+        "text": "Du har sökt långt och länge, men svaret känns fortfarande utom räckhåll. Nu står du inför två möjligheter – att vända blicken inåt och finna mening i dig själv, eller att fortsätta leta utanför dig själv efter något större.",
+        "options": [
+            {"text": "Sök svaret inom dig", "next_id": 5},
+            {"text": "Sök svaret i världen", "next_id": 6},
+        ],
+    },
+{
+        "id": 5,
+        "title": "Inre Insikt",
+        "text": "Du inser att meningen med livet aldrig var något du kunde hitta utanför dig själv. Den skapas av dina handlingar, dina drömmar och dina val. Med den insikten känner du en djup frid och går vidare, redo att leva fullt ut.",
+        "options": [],
+    },
+{
+        "id": 6,
+        "title": "Resan Fortsätter",
+        "text": "Du vägrar nöja dig med ett subjektivt svar. Världen är stor, mysterierna är många, och du är fast besluten att fortsätta söka. Kanske kommer du en dag att finna det du letar efter – eller kanske är själva sökandet meningen i sig.",
+        "options": [],
+    },
+    
+#avslutning

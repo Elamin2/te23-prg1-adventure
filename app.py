@@ -12,7 +12,7 @@ def get_page(book_data, page_id):
         if page["id"] == page_id:
             return page
     return None
-
+    
 def show_page(page):
     print(page["title"])
     print(page["text"])
@@ -22,7 +22,7 @@ def show_page(page):
 
 def main():
     current_id = 1
-    inventory = []
+    inventory = [current_id]
     while True and current_id is not None:
         current_page = get_page(BOOK, current_id)
         show_page(current_page)
@@ -33,8 +33,10 @@ def main():
         if 1 <= choice <= len(current_page["options"]):
             current_id = current_page["options"][choice - 1]["next_id"]
         else:
-            print("Invalid choice. Please try again.")
-            current_id = None
+            print("Fel svar du förlorar")
+            current_id = None 
+            input("Prova igen? (ja/nej):")
+            if current_id != "ja": break
 
 
 if __name__ == "__main__":
